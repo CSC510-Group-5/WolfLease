@@ -30,6 +30,14 @@ Finding apartments on a lease can be a difficult and time-consuming task. We can
 
 ## How to use?
 
+### Sign up
+
+https://github.com/CSC510-Group-5/WolfLease/blob/master/docs/signup.webm
+
+## Create Apartment with Flat
+
+https://github.com/CSC510-Group-5/WolfLease/blob/master/docs/create-apartment.webm
+
 ---
 
 Go to the wolflease website: [yoururl.tech/wolflease](https://yoururl.tech/wolflease)
