@@ -6,6 +6,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { Interest } from '../models/Interest';
 import { User } from '../models/User';
 import { ApiService } from '../services/api.service';
+import { Lease } from '../models/Lease';
 
 @Component({
   selector: 'app-interest',
@@ -85,7 +86,6 @@ export class InterestComponent implements OnInit {
         this._apiService.updateUser(this.userDetails);
       });
   }
-
   getFlatDetails() {
     this._apiService.getFlats().subscribe((data) => {
       this.flatDetails = data.filter(flat => flat.id == this.flatId)[0];
@@ -97,5 +97,24 @@ export class InterestComponent implements OnInit {
         });
       });
   }
+  acceptInterestInApartment(interest: Interest) {
+    //create a new lease
+    let leaseStartDate = new Date();
+    let leaseEndDate = new Date(new Date().setFullYear(leaseStartDate.getFullYear() + 1));
+    let lease = new Lease({ "lease_start_date": leaseStartDate.toISOString().split('T')[0], "lease_end_date": leaseEndDate.toISOString().split('T')[0] });
+    this._apiService.addLease(lease).subscribe(
+      (data) => {
+        this.updateLeaseForFlat(data);
+        this.updateUserDetails(interest.user_id);
+        this.router.navigate(['/owner/apartment']);
+      },
+      (error) => {
+        this.loading = false;
+        this._snackBar.open("Error creating a lease", "Close", {
+          duration: 2000,
+        });
+      }
 
+    );
+  }
 }
