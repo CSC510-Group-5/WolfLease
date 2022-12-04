@@ -104,7 +104,6 @@ export class InterestComponent implements OnInit {
     let lease = new Lease({ "lease_start_date": leaseStartDate.toISOString().split('T')[0], "lease_end_date": leaseEndDate.toISOString().split('T')[0] });
     this._apiService.addLease(lease).subscribe(
       (data) => {
-        this.updateLeaseForFlat(data);
         this.updateUserDetails(interest.user_id);
         this.router.navigate(['/owner/apartment']);
       },
