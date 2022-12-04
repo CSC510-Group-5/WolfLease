@@ -32,11 +32,11 @@ Finding apartments on a lease can be a difficult and time-consuming task. We can
 
 ### Sign up
 
-https://github.com/CSC510-Group-5/WolfLease/blob/master/docs/signup.webm
+https://user-images.githubusercontent.com/26343333/205466085-1bfca27a-2057-4adf-a4e6-36bb1f50d0b6.mov
 
 ## Create Apartment with Flat
 
-https://github.com/CSC510-Group-5/WolfLease/blob/master/docs/create-apartment.webm
+https://user-images.githubusercontent.com/26343333/205466093-4d27e3ee-1860-4123-af52-b9273ed3ec49.mov
 
 ---
 
