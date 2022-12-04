@@ -86,6 +86,21 @@ export class InterestComponent implements OnInit {
         this._apiService.updateUser(this.userDetails);
       });
   }
+  updateLeaseForFlat = (data: Lease) => {
+    this.flatDetails.lease_id = data.id;
+    this.flatDetails.availability = false;
+    let success = false;
+    this._apiService.updateFlat(this.flatDetails).subscribe(
+      (data) => {
+      },
+      (error) => {
+        this.loading = false;
+        this._snackBar.open("Error updating flat details", "Close", {
+          duration: 2000,
+        });
+      }
+    );
+  }
   getFlatDetails() {
     this._apiService.getFlats().subscribe((data) => {
       this.flatDetails = data.filter(flat => flat.id == this.flatId)[0];
@@ -104,6 +119,7 @@ export class InterestComponent implements OnInit {
     let lease = new Lease({ "lease_start_date": leaseStartDate.toISOString().split('T')[0], "lease_end_date": leaseEndDate.toISOString().split('T')[0] });
     this._apiService.addLease(lease).subscribe(
       (data) => {
+        this.updateLeaseForFlat(data);
         this.updateUserDetails(interest.user_id);
         this.router.navigate(['/owner/apartment']);
       },
