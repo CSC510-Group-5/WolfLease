@@ -48,6 +48,10 @@ We currently have continuous deployment setup for the web application. As part o
 
 This package can then be deployed to any suitable cloud or on-prem service and the application should work as expected. Currently this docker image is pulled by Azure App Service, which then runs the application as a container.
 
+## Data export
+
+Data for the project can be exported in JSON format using the following command: `python manage.py dumpdata > data.json`
+
 ## WolfLease Endpoints
 
 #### Admin page
