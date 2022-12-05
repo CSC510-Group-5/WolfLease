@@ -28,13 +28,17 @@ Finding apartments on a lease can be a difficult and time-consuming task. We can
 
 ![Intro video](https://lmsstorageservice.blob.core.windows.net/images/WolfLease_intro.gif)
 
+## Comparison Video
+
+https://user-images.githubusercontent.com/26343333/205559312-347b3143-a097-47da-953b-6dc23e2b4d5e.mp4
+
 ## How to use?
 
 ### Sign up
 
 https://user-images.githubusercontent.com/26343333/205466085-1bfca27a-2057-4adf-a4e6-36bb1f50d0b6.mov
 
-## Create Apartment with Flat
+### Create Apartment with Flat
 
 https://user-images.githubusercontent.com/26343333/205466093-4d27e3ee-1860-4123-af52-b9273ed3ec49.mov
 
