@@ -35,9 +35,11 @@ WolfLease is an application to help people find apartments offering rooms on sub
 
 ![Intro video](https://lmsstorageservice.blob.core.windows.net/images/WolfLease_intro.gif)
 
-## Comparison Video
+## Comparison
 
 https://user-images.githubusercontent.com/26343333/205559312-347b3143-a097-47da-953b-6dc23e2b4d5e.mp4
+
+For scalability, check out [this document](docs/README.md).
 
 ## How to use?
 
