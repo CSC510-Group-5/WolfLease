@@ -67,6 +67,14 @@ Email: user@wolflease.com
 Password: 12345678
 ```
 
+## Future
+
+### Large Scale Deployment
+The application could be deployed while using a load balancer to ensure high availability.
+
+### Database
+Currently SQLite is being used as the database. If multi-user capabilities are needed, PostgreSQL or MySQL is recommended.
+
 ## We love our contributors ❤️❤️
 
 Make a [pull request](https://github.com/CSC510-Group-5/WolfLease/compare) to help contribute.
