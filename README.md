@@ -24,7 +24,14 @@
 
 ![Intro Banner](https://lmsstorageservice.blob.core.windows.net/images/WolfLease_main_img.png)
 
-Finding apartments on a lease can be a difficult and time-consuming task. We can sublease a room to save time, possibly rent, and enjoy the benefits of a shorter lease time. WolfLease is an application to help people find Apartments offering rooms on sublease and move in faster! WolfLease allows us to search for flats based on location, facilities, sublease start and end dates, etc.
+## Why?
+Finding apartments on a lease can be a difficult and time-consuming task. Subleasing is becoming popular where you lease apartment for a short time. 
+
+WolfLease is an application to help people find apartments offering rooms on sublease and move in faster! WolfLease allows us to search for flats based on 
+- location
+- facilities
+- sublease start and end dates
+- and many more criteria!
 
 ![Intro video](https://lmsstorageservice.blob.core.windows.net/images/WolfLease_intro.gif)
 
