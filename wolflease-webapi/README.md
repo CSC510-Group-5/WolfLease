@@ -42,6 +42,15 @@
      - Site will be hosted at:
        `http://127.0.0.1:8000/`
 
+## Deployment
+
+We currently have continuous deployment setup for the web application. As part of continuos deployment we build & push the app as a docker image to [GitHub Packages](https://github.com/CSC510-Group-5/WolfLease/pkgs/container/wolflease).
+
+This package can then be deployed to any suitable cloud or on-prem service and the application should work as expected. Currently this docker image is pulled by Azure App Service, which then runs the application as a container.
+
+## Data export
+
+Data for the project can be exported in JSON format using the following command: `python manage.py dumpdata > data.json`
 
 ## WolfLease Endpoints
 

@@ -24,11 +24,36 @@
 
 ![Intro Banner](https://lmsstorageservice.blob.core.windows.net/images/WolfLease_main_img.png)
 
-Finding apartments on a lease can be a difficult and time-consuming task. We can sublease a room to save time, possibly rent, and enjoy the benefits of a shorter lease time. WolfLease is an application to help people find Apartments offering rooms on sublease and move in faster! WolfLease allows us to search for flats based on location, facilities, sublease start and end dates, etc.
+## Why?
+Finding apartments on a lease can be a difficult and time-consuming task. Subleasing is becoming popular where you lease apartment for a short time. 
+
+WolfLease is an application to help people find apartments offering rooms on sublease and move in faster! WolfLease allows us to search for flats based on 
+- location
+- facilities
+- sublease start and end dates
+- and many more criteria!
 
 ![Intro video](https://lmsstorageservice.blob.core.windows.net/images/WolfLease_intro.gif)
 
+## Comparison
+
+https://user-images.githubusercontent.com/26343333/205559312-347b3143-a097-47da-953b-6dc23e2b4d5e.mp4
+
+For scalability, check out [this document](docs/README.md).
+
 ## How to use?
+
+### Sign up
+
+https://user-images.githubusercontent.com/26343333/205466085-1bfca27a-2057-4adf-a4e6-36bb1f50d0b6.mov
+
+### Create Apartment with Flat
+
+https://user-images.githubusercontent.com/26343333/205466093-4d27e3ee-1860-4123-af52-b9273ed3ec49.mov
+
+### Show Interest in Flat
+
+https://user-images.githubusercontent.com/26343333/205571998-496b64c3-ec0e-40b5-8c26-2ad0ae3a9c83.webm
 
 ---
 
@@ -47,6 +72,14 @@ Password: 12345678
 Email: user@wolflease.com
 Password: 12345678
 ```
+
+## Future
+
+### Large Scale Deployment
+The application could be deployed while using a load balancer to ensure high availability.
+
+### Database
+Currently SQLite is being used as the database. If multi-user capabilities are needed, PostgreSQL or MySQL is recommended.
 
 ## We love our contributors ❤️❤️
 
